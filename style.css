@@ -129,7 +129,7 @@ img {
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) and (min-width: 421px){
   *{
     margin: 0;
     padding: 0;
@@ -141,7 +141,7 @@ img {
   }
 
   img{
-    height: 100px;
+    height: 150px;
   }
 
   #lezioni .row>.left, #lezioni .row>.right, 
